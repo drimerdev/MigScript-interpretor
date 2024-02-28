@@ -10,7 +10,11 @@ namespace MigScriptInterpreter
         Number,
         String,
         Keyword,
-        Symbol
+        Symbol,
+        OpenParen,
+        CloseParen,
+        BinaryOperator,
+        Let
         // Add more token types as needed
     }
 
@@ -132,8 +136,22 @@ namespace MigScriptInterpreter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("MigScript Interpreter CLI");
-            Console.WriteLine("Enter MigScript code (press Enter twice to finish):");
+            Console.WriteLine("MigScript");
+            Console.WriteLine("Made by drimerdev (2024)");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@@");
+            Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
 
             string source = "";
             string line;
